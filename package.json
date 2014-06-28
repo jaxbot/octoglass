@@ -1,0 +1,29 @@
+{
+  "name": "octoglass",
+  "version": "0.0.0",
+  "description": "Github notifications for Google Glass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaxbot/octoglass.git"
+  },
+  "keywords": [
+    "google",
+    "glass",
+    "glass",
+    "octoglass",
+    "github"
+  ],
+  "author": "Jonathan Warner (Jaxbot)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaxbot/octoglass/issues"
+  },
+  "homepage": "https://github.com/jaxbot/octoglass",
+  "dependencies": {
+    "glass-prism": "^0.3.0"
+  }
+}
