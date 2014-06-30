@@ -7,6 +7,8 @@ prism.init(config, function() {
 });
 
 prism.on('newclient', function(tokens) {
-	prism.insertCard({ html: prism.cards.main("Welcome to Octoglass!") }, tokens);
+	var user = "temp";
+
+	prism.insertCard({ html: prism.cards.welcome({ user: user }) }, tokens);
 });
 
